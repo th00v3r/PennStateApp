@@ -1,0 +1,126 @@
+html { 
+  background: url(WhiteOut.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+* {margin: 0; padding: 0;}
+body {
+    <!-- src: http://subtlepatterns.com/?p=1045 -->
+    background: url('dark_geometric.png');
+}
+ 
+#container {
+  width: 1000px;
+  overflow: hidden;
+  margin: 50px auto;
+  background: white;
+}
+
+/*header*/
+header {
+  width: 800px;
+  margin: 0px auto;
+}
+
+header h1 {
+  text-align: center;
+  font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
+  color: blue;
+  
+}
+
+header p {
+  font: 100 40px/1.5 Helvetica, Verdana, sans-serif;
+  text-align: center;
+  color: blue;
+}
+/*photobanner*/
+.photobanner {
+  height: 466px;
+  width: 7100px;
+  margin-bottom: 0px;
+}
+ /*keyframe animations*/
+.first {
+  -webkit-animation: bannermove 35s linear infinite;
+     -moz-animation: bannermove 35s linear infinite;
+      -ms-animation: bannermove 35s linear infinite;
+       -o-animation: bannermove 35s linear infinite;
+          animation: bannermove 35s linear infinite;
+}
+ 
+ 
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -8450px;
+ }
+ 
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {
+     margin-left: 0px;
+ }
+ 100% {
+   margin-left: -8450px;
+ }
+ 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+     margin-left: 0px;
+ }
+ 100% {
+    margin-left: -8450px;
+ }
+ 
+}
+
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -8450px;
+ }
+ 
+}
+ 
+
+  body {
+  	 font-family: sans-serif, "Verdana",
+          Times, serif;
+    color: white;
+    text-shadow:2px 2px 2px #000000;
+}
+ 
+.photobanner img {
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
+}
+ 
+.photobanner img:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+ 
+  -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+    h1 {
+    font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif }
